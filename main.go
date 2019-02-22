@@ -7,7 +7,7 @@ import (
 )
 
 func handle(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Home of Go")
+	fmt.Fprintf(w, "<h1>Home of Go</h1>")
 }
 
 func main() {
