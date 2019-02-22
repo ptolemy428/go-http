@@ -1,0 +1,2 @@
+#docker build -t local:go-http .
+#docker run -it --rm -p8080:8080 local:go-http
